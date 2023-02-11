@@ -30,10 +30,6 @@ function myAsyncFunction(name){
     // }
     // )
 
-    //with arrow function
-    myAsyncFunction("Ai").then(
-        data=> console.log(data),
-        error=> console.log(data)
-        
-        
-    );
+    // with arrow function
+    myAsyncFunction("Ai1").then(data=>
+    console.log(data)).catch(data=>console.log(data));
